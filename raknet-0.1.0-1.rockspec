@@ -1,4 +1,4 @@
-package = "RakNet"
+package = "raknet"
 version = "0.1.0-1"
 
 source = {
@@ -6,8 +6,8 @@ source = {
   tag = "v0.1.0"
 }
 description={
-   summary = 'RakNet',
-   detailed = 'RakNet',
+   summary = 'raknet',
+   detailed = 'raknet',
    homepage = "https://github.com/reasonMix/RakNet",
    license = "The MIT License"
 }
