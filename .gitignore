@@ -29,3 +29,16 @@ Debug/
 Release/
 .DS_Store
 .Trashes
+_builds
+_logs
+build.luarocks
+CMakeFiles
+.tags
+.tags1
+cmake_install.cmake
+CMakeCache.txt
+include
+Makefile
+publish
+.atom-build.yml
+.clang_complete

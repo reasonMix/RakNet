@@ -130,6 +130,9 @@
 		1025322616A6775E0000C5BD /* VariadicSQLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531B216A6775E0000C5BD /* VariadicSQLParser.cpp */; };
 		1025322716A6775E0000C5BD /* VitaIncludes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531B416A6775E0000C5BD /* VitaIncludes.cpp */; };
 		1025322816A6775E0000C5BD /* WSAStartupSingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531B716A6775E0000C5BD /* WSAStartupSingleton.cpp */; };
+		C79A4F411E77FF6800A3AD30 /* lua_raknet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C79A4F3F1E77FF6800A3AD30 /* lua_raknet.cpp */; };
+		C7A70BF81E79424A003C1A91 /* LuaFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7A70BF41E79424A003C1A91 /* LuaFunction.cpp */; };
+		C7A70BF91E79424A003C1A91 /* luax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7A70BF61E79424A003C1A91 /* luax.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -413,6 +416,12 @@
 		102531B716A6775E0000C5BD /* WSAStartupSingleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WSAStartupSingleton.cpp; sourceTree = "<group>"; };
 		102531B816A6775E0000C5BD /* WSAStartupSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAStartupSingleton.h; sourceTree = "<group>"; };
 		102531B916A6775E0000C5BD /* XBox360Includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBox360Includes.h; sourceTree = "<group>"; };
+		C79A4F3F1E77FF6800A3AD30 /* lua_raknet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_raknet.cpp; sourceTree = "<group>"; };
+		C79A4F421E77FF8E00A3AD30 /* lua_raknet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lua_raknet.h; sourceTree = "<group>"; };
+		C7A70BF41E79424A003C1A91 /* LuaFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LuaFunction.cpp; sourceTree = "<group>"; };
+		C7A70BF51E79424A003C1A91 /* LuaFunction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LuaFunction.hpp; sourceTree = "<group>"; };
+		C7A70BF61E79424A003C1A91 /* luax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = luax.cpp; sourceTree = "<group>"; };
+		C7A70BF71E79424A003C1A91 /* luax.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = luax.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -501,6 +510,12 @@
 				102530BD16A6775E0000C5BD /* CCRakNetUDT.cpp */,
 				102530BE16A6775E0000C5BD /* CCRakNetUDT.h */,
 				102530BF16A6775E0000C5BD /* CheckSum.cpp */,
+				C7A70BF41E79424A003C1A91 /* LuaFunction.cpp */,
+				C7A70BF51E79424A003C1A91 /* LuaFunction.hpp */,
+				C7A70BF61E79424A003C1A91 /* luax.cpp */,
+				C7A70BF71E79424A003C1A91 /* luax.hpp */,
+				C79A4F3F1E77FF6800A3AD30 /* lua_raknet.cpp */,
+				C79A4F421E77FF8E00A3AD30 /* lua_raknet.h */,
 				102530C016A6775E0000C5BD /* CheckSum.h */,
 				102530C116A6775E0000C5BD /* CloudClient.cpp */,
 				102530C216A6775E0000C5BD /* CloudClient.h */,
@@ -857,6 +872,7 @@
 				102531D216A6775E0000C5BD /* FileOperations.cpp in Sources */,
 				102531D316A6775E0000C5BD /* FormatString.cpp in Sources */,
 				102531D416A6775E0000C5BD /* FullyConnectedMesh2.cpp in Sources */,
+				C7A70BF91E79424A003C1A91 /* luax.cpp in Sources */,
 				102531D516A6775E0000C5BD /* Getche.cpp in Sources */,
 				102531D616A6775E0000C5BD /* Gets.cpp in Sources */,
 				102531D716A6775E0000C5BD /* GetTime.cpp in Sources */,
@@ -884,6 +900,7 @@
 				102531ED16A6775E0000C5BD /* PacketOutputWindowLogger.cpp in Sources */,
 				102531EE16A6775E0000C5BD /* PluginInterface2.cpp in Sources */,
 				102531EF16A6775E0000C5BD /* Rackspace.cpp in Sources */,
+				C7A70BF81E79424A003C1A91 /* LuaFunction.cpp in Sources */,
 				102531F016A6775E0000C5BD /* RakMemoryOverride.cpp in Sources */,
 				102531F416A6775E0000C5BD /* RakNetCommandParser.cpp in Sources */,
 				102531F516A6775E0000C5BD /* RakNetSocket.cpp in Sources */,
@@ -921,6 +938,7 @@
 				1025321516A6775E0000C5BD /* StatisticsHistory.cpp in Sources */,
 				1025321616A6775E0000C5BD /* StringCompressor.cpp in Sources */,
 				1025321716A6775E0000C5BD /* StringTable.cpp in Sources */,
+				C79A4F411E77FF6800A3AD30 /* lua_raknet.cpp in Sources */,
 				1025321816A6775E0000C5BD /* SuperFastHash.cpp in Sources */,
 				1025321916A6775E0000C5BD /* TableSerializer.cpp in Sources */,
 				1025321A16A6775E0000C5BD /* TCPInterface.cpp in Sources */,
@@ -1028,6 +1046,7 @@
 				GCC_PREFIX_HEADER = "RakNetTest/RakNetTest-Prefix.pch";
 				INFOPLIST_FILE = "RakNetTest/RakNetTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/liuyuntao/work/Gashapon/frameworks/cocos2d-x/external/lua/lua";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1039,6 +1058,7 @@
 				GCC_PREFIX_HEADER = "RakNetTest/RakNetTest-Prefix.pch";
 				INFOPLIST_FILE = "RakNetTest/RakNetTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/liuyuntao/work/Gashapon/frameworks/cocos2d-x/external/lua/lua";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1062,6 +1082,7 @@
 				102530B116A675EE0000C5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
